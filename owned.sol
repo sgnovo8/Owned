@@ -4,8 +4,9 @@ contract Owned {
   address public owner;
   
   // constructor will start
+  // 
   
-  contstructor() {
+  constructor() {
     owner = msg.sender;
   }
   
